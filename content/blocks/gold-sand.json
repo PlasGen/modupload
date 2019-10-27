@@ -1,0 +1,7 @@
+{
+	"type": "floor",
+	"name": "金沙",
+	"itemDrop": "gold-powder",
+	"variants": 3,
+	"playerUnmineable": true
+}

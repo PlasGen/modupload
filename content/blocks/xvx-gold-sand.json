@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "金沙制造机",
+	"description":"将合金爆炸来制造金沙[不要问我为什么，为了防止某些地图没有金沙!!!]",
+	"outputItem":{"item":"gold-powder","amount":8},
+	"size":3,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 180,
+	"itemCapacity":50,
+	"updateEffect":"shockwave",
+	"consumes": {
+		"power":1.0,
+		"items": {
+			"items": [
+				{ "item":"surge-alloy","amount":1},
+				{ "item":"blast-compound","amount":1}
+			]
+		}
+	},
+	"requirements": [
+		{"item":"copper","amount":250},
+		{"item":"silicon","amount":80},
+		{"item":"surge-alloy","amount":50},
+		{"item":"titanium","amount":120}
+	],
+	"category": "crafting",
+	"research": "silver-crucible"
+}

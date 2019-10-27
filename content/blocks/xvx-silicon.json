@@ -1,0 +1,27 @@
+{
+	"type": "GenericSmelter",
+	"name": "大型硅厂",
+	"description": "更实用的硅厂",
+	"size":3,
+	"outputItem": {"item": "silicon", "amount": 3},
+	"consumes": {
+		"power": 3.0,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 2 },
+				{ "item": "sand", "amount": 3 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 500 },
+		{ "item": "lead", "amount": 200 },
+		{ "item": "graphite", "amount": 250 },
+		{ "item": "silicon", "amount": 100 }
+	],
+	"craftTime": 60,
+	"health":1000,
+	"itemCapacity":200,
+	"category": "crafting",
+	"research": "silver-crucible"
+}

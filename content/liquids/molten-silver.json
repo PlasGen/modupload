@@ -1,0 +1,8 @@
+{
+	"name": "液态银",
+	"description": "想象一下银，但根本不是固体",
+	"temperature": 0.9,
+    "viscosity": 0.8,
+    "effect": "melting",
+    "color": "a4a2bd"
+}

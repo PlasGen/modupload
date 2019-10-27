@@ -1,0 +1,26 @@
+{
+	"type": "GenericCrafter",
+	"name": "银提取机",
+	"description":"无中生有[不要问为什么,用来防止某些地图没有银矿!!!]",
+	"outputItem":{"item":"silver","amount":1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"liquidCapacity":100,
+	"hasItems": true,
+	"craftTime": 60,
+	"itemCapacity":20,
+	"updateEffect":"producesmoke",
+	"consumes": {
+		"power":2.0,
+		"liquid":{"liquid":"water","amount":0.05}
+	},
+	"requirements": [
+		{"item":"copper","amount":200},
+		{"item":"silicon","amount":40},
+		{"item":"metaglass","amount":150},
+		{"item":"titanium","amount":80}
+	],
+	"research": "silver-crucible",
+	"category": "crafting"
+}

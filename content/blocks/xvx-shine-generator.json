@@ -1,0 +1,27 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "金银合金发电机",
+	"description": "用金银合金产生能量，不要问为什么",
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 30,
+	"powerProduction": 15.0,
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "electrum", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "metaglass", "amount": 200 },
+		{ "item": "silicon", "amount": 200 },
+		{ "item": "electrum", "amount": 200 },
+		{ "item": "silver", "amount": 200 },
+		{ "item": "titanium", "amount": 200 }
+	],
+	"category": "power",
+	"research": "silver-crucible"
+}

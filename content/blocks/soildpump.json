@@ -1,0 +1,29 @@
+{
+	"type":"GenericCrafter",
+	"name":"大型煤场",
+	"description":"变废为煤",
+	"size":3,
+	"hasPower":true,
+	"hasLiquids":false,
+	"hasItems":true,
+	"outputItem":{"item":"coal","amount":8},
+	"consumes":{
+		"power":5.0,
+		"items":{
+			"items":[
+				{"item":"spore-pod","amount":2},
+			]
+		}
+	},
+	"requirements": [
+		{"item":"copper","amount":200},
+		{"item":"lead","amount":150},
+		{"item":"graphite","amount":100},
+		{"item":"metaglass","amount":20}
+	],
+	"craftTime":60,
+	"health":450,
+	"itemCapacity":200,
+	"category": "crafting"
+	"research": "silver-crucible"
+}
